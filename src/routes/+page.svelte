@@ -36,62 +36,90 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="qavo is an AI-powered operations platform that lets teams build custom internal tools instantly, without engineering dependencies. Operations managers at Series A-C startups use qavo to ship workflows that once took months in just hours, eliminating backlogs and scaling processes at the speed of business. We give ops teams the agency to create exactly what they need, when they need it."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "John Doe",
+			name: "Priya Sharma",
 			position: "Director of Operations",
-			company: "Global Solutions",
+			company: "Velocity Labs",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We went from waiting 3 months for engineering resources to shipping custom compliance workflows in 4 hours. qavo gave our ops team the autonomy we desperately needed.",
+			image: "/generated/image-professional-headshot-of-an-indian-woman.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Marcus Chen",
+			position: "Compliance Manager",
+			company: "TrustCore",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The enterprise-grade security controls and audit trails satisfied our CTO's governance requirements immediately. We eliminated the risk of shadow IT while moving 10x faster.",
+			image: "/generated/image-professional-headshot-of-an-asian-man-bu.webp"
+		},
+		{
+			name: "Elena Rodriguez",
+			position: "Head of Operations",
+			company: "Streamline Inc",
+			quote:
+				"We scaled from 50 to 200 people without adding a single engineer to build internal tools. qavo saved us $400K in engineering costs while accelerating our operations velocity.",
+			image: "/generated/image-professional-headshot-of-a-hispanic-woma.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Built for operations teams who refuse to wait"
+	subtitle="Ship custom tools in hours with AI-powered automation that eliminates engineering dependencies while maintaining enterprise-grade security."
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "AI-powered tool builder",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Describe what you need in plain language and watch qavo generate custom tools instantly. No code, no tickets, no waiting on engineering sprints."
 		},
 		{
-			title: "Data Analysis",
+			title: "Zero engineering dependencies",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Operations teams build, deploy, and iterate on their own workflows without touching the engineering backlog. Your team gets the agency to move fast while engineering focuses on core product."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Enterprise security that CTOs approve",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Built-in audit trails, role-based permissions, and SOC 2 compliance give your CTO confidence while you maintain the speed to execute."
+		},
+		{
+			title: "Build your way",
+			description:
+				"Choose AI generation for instant results or use the intuitive visual builder for precise control. Switch between methods whenever your workflow demands it."
+		},
+		{
+			title: "Automate compliance workflows",
+			description:
+				"Transform manual compliance processes into automated workflows that capture every action, maintain perfect audit trails, and scale effortlessly."
+		},
+		{
+			title: "Connect everything",
+			description:
+				"Integrate with your entire tech stack through pre-built connectors and APIs. Pull data from anywhere, push updates everywhere, all without engineering help."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Stop waiting on engineering"
+	subtitle="Build custom tools instantly"
+	description="Your ops team deserves the agency to ship workflows without engineering dependencies. qavo gives you AI-powered automation with enterprise-grade security that your CTO will approve. No more months-long backlogs—just instant results."
+	imageSrc="/generated/image-a-confident-operations-manager-sitting-a.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Get started",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "See how it works"
+		}
+	]}
+/>
