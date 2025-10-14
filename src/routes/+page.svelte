@@ -10,12 +10,30 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Build custom tools instantly, without waiting on engineering"
+	subtitle="Operations teams at Series A-C startups use qavo to ship workflows in hours, not months."
+	imageSrc="/generated/image-operations-manager-standing-and-smiling-.webp"
+	centered={false}
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Get started"
+		},
+		{
+			href: "/about",
+			label: "Learn more"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by operations teams"
+	logoUrls={[
+		'https://cdn.brandfetch.io/notion.so/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/stripe.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/intercom.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/segment.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
